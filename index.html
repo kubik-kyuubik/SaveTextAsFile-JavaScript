@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Save Text As File</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="wrapper">
+        <textarea>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis repellendus minus id temporibus doloremque nulla beatae eaque facilis. Eius a quia doloribus impedit dolorum vitae neque et porro vel explicabo?</textarea>
+        <div class="file-options">
+            <div class="option file-name">
+                <label">File name</label>
+                <input type="text" placeholder="Enter file name">
+            </div>
+            <div class="option save-as">
+                <label>Save as</label>
+                <div class="select-menu">
+                    <select>
+                        <option value="">Text File (.txt)</option>
+                        <option value="">JS File (.js)</option>
+                        <option value="">HTML File (.html)</option>
+                        <option value="">SVG File (.svg)</option>
+                        <option value="">Doc File (.doc)</option>
+                        <option value="">PPT File (.ppt)</option>
+                    </select>
+                </div>
+            </div>            
+        </div>
+        <button class="save-btn">Save As Text File</button>    
+    </div>    
+</body>
+</html>
